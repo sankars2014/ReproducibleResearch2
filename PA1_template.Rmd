@@ -9,7 +9,7 @@ output: html_document
 
 
 ```{r echo=TRUE}
-##unzip(zipfile="activity.zip")
+unzip(zipfile="activity.zip")
 data <- read.csv("activity.csv")
 ```
 
